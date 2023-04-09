@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author name" content="DevOps">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="a.css">
+    <title>site-name</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="titlebar">
+            <div class="logo">
+                <!-- this will show the site logo -->
+                <div class="image">
+
+                </div>
+            </div>
+            <div class="titlecont">
+                <div class="site-name">
+                    <p>Filmcity</p>
+                </div>
+            </div>
+        </div>
+        <!-- this is the main title bar which will have the logo , site name and the channels / video platforms we want to have -->
+        <div class="ribbon">
+            <!-- the ribbon bar will have the filter and suston search option / whatever is possible -->
+
+            <div class="search">
+                <!-- this will have the searchbox -->
+                <!-- three parts searchlabel , searchbox , search button -->
+                <div class="searchbox">
+
+                    <form action="" class="searchform">
+                        <input type="text" id="search" autocomplete="on" placeholder="Search...">
+                        <button id="b1" onclick="closesearch()" , type="button"><span>
+                                <!--this will change when we hover over it--> </span></button>
+                        <button id="b2" onclick="search_movies(); opensearch()" , type="button"><span>
+                                <!--this will change when we hover over it--> </span></button>
+                    </form>
+                </div>
+                <div class="searchresults" id="searchresultsid">
+                    <!-- this will have the 8search results -->
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <!-- first this will contain the imdb top 100 movies and have scroll buttons which will change the contents of the boxes -->
+            <div class="imdb">
+                <p>Top 100 IMDB Rated Movies</p>
+                <div class="imdbcontainer">
+                </div>
+                <div>
+                    <button id="buttonleft" onclick="goToPrevPage()"></button>
+                    <button id="buttonright" onclick="goToNextPage()"></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
