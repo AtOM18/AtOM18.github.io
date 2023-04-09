@@ -24,10 +24,11 @@ function render_images(){
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': 'dc554bc96cmsh9dd5109d05819c3p1c3336jsnc17cb0c3d106',
+        'X-RapidAPI-Key': '0d0562efd8msh8d871c1de1e7dcep1b3321jsn11488614ccd9',
         'X-RapidAPI-Host': 'imdb-top-100-movies.p.rapidapi.com'
       }
     };
+    
     
   
   fetch('https://imdb-top-100-movies.p.rapidapi.com/', options)
@@ -78,7 +79,7 @@ function search_movies(){
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': 'b44df596c7msh2cbe85d73f8c0a7p1a59cejsn12d8c8bda624',
+        'X-RapidAPI-Key': '0d0562efd8msh8d871c1de1e7dcep1b3321jsn11488614ccd9',
         'X-RapidAPI-Host': 'streaming-availability.p.rapidapi.com'
       }
     };
