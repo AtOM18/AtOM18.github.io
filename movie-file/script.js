@@ -9,10 +9,11 @@ console.log(imdbId);
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '3746b03025msh529a258bc467110p156bbajsn88d3025c6078',
+		'X-RapidAPI-Key': '0d0562efd8msh8d871c1de1e7dcep1b3321jsn11488614ccd9',
 		'X-RapidAPI-Host': 'streaming-availability.p.rapidapi.com'
 	}
 };
+
 
 
 fetch(`https://streaming-availability.p.rapidapi.com/v2/get/basic?country=us&imdb_id=${imdbId}`, options)
