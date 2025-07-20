@@ -43,7 +43,7 @@ defaults:
       tags: Other
 
   analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-3NLJL5KC3C"
-    anonymize_ip: false # default
+  - provider: "google-gtag"
+  - google:
+      tracking_id: "G-3NLJL5KC3C"
+      anonymize_ip: false # default
