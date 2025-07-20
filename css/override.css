@@ -1,6 +1,7 @@
 hr {
   margin-top: 30px;
   margin-bottom: 20px;
+  border-color: #333;
 }
 
 /* Post navigation links */
@@ -10,6 +11,7 @@ hr {
 
 .post_navi-label {
   font-size: 0.8em;
+  color: #aaa;
   opacity: 0.5;
 }
 
@@ -17,7 +19,7 @@ hr {
   padding: 0 2.2em;
   width: 50%;
   position: relative;
-  color: inherit !important;
+  color: #e0e0e0 !important;
 }
 
 .post_navi .nav_prev {
@@ -41,5 +43,31 @@ hr {
   top: 50%;
   transform: translateY(-50%);
   font-size: 2.5em;
+  color: #ccc;
   opacity: 0.3;
+}
+
+/* HighlightJS overrides */
+.hljs {
+  max-height: 500px;
+  background-color: #1e1e1e;
+  color: #dcdcdc;
+}
+
+.highlight pre {
+  /* Avoid pushing up spacing */
+  margin: 0;
+}
+
+/* Print-specific styling */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* Global background and text color */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
 }
