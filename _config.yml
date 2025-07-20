@@ -41,3 +41,9 @@ defaults:
       type: post
     values:
       tags: Other
+
+  analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-3NLJL5KC3C"
+    anonymize_ip: false # default
