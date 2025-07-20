@@ -1,5 +1,2 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Hi! I’m AtOM, exploring Offensive Security.
+This blog is where I share my learnings, notes, and guides as I dive deeper into cybersecurity.
