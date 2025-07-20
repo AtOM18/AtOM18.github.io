@@ -18,7 +18,7 @@ linkedin_username: "hardikvardaan"
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 theme: "minima"
-remote_theme: jekyll/minima
+
 rss: rss
 
 google_analytics: G-3NLJL5KC3C
@@ -30,7 +30,6 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-remote-theme
 
 titles_from_headings:
   strip_title: true
