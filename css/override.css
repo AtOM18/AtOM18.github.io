@@ -1,7 +1,35 @@
+/* Global body styles */
+body {
+  background-color: #1c1c1c;
+  color: #d0d0d0;
+  font-family: system-ui, sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #eaeaea;
+}
+
+/* Paragraph and base text */
+p {
+  color: #d0d0d0;
+}
+
+/* Horizontal rule styling */
 hr {
   margin-top: 30px;
   margin-bottom: 20px;
   border-color: #333;
+}
+
+/* Links */
+a {
+  color: #3399ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* Post navigation links */
@@ -19,7 +47,7 @@ hr {
   padding: 0 2.2em;
   width: 50%;
   position: relative;
-  color: #e0e0e0 !important;
+  color: #d0d0d0 !important;
 }
 
 .post_navi .nav_prev {
@@ -43,31 +71,25 @@ hr {
   top: 50%;
   transform: translateY(-50%);
   font-size: 2.5em;
-  color: #ccc;
+  color: #888;
   opacity: 0.3;
 }
 
-/* HighlightJS overrides */
+/* Highlight.js */
 .hljs {
   max-height: 500px;
   background-color: #1e1e1e;
   color: #dcdcdc;
 }
 
+/* Code block margin fix */
 .highlight pre {
-  /* Avoid pushing up spacing */
   margin: 0;
 }
 
-/* Print-specific styling */
+/* Print-only rules */
 @media print {
   .no-print {
     display: none !important;
   }
-}
-
-/* Global background and text color */
-body {
-  background-color: #121212;
-  color: #e0e0e0;
 }
