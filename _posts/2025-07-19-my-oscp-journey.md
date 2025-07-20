@@ -4,7 +4,7 @@ Hi, this is going to be a long blog about my journey from start to finish to ach
 This was a great experience where I learned a lot. I passed on my first attempt. The preparation is about making good notes, gaining experience. 
 
 ---
-#### Index
+### Index
 - Backstory: Nothing to do with the exam itself. Just about myself and how I started.
 - Pre Exam Preparation: What I used before purchasing the actual course.
 - Official Course Preparation
@@ -13,7 +13,7 @@ This was a great experience where I learned a lot. I passed on my first attempt.
 - Final Tips
 
 ---
-#### Backstory
+### Backstory
 _Note:_ This is nothing to do with the examination and its about my preparation and just some backstory.
 
 This was before starting university. I started my cybersecurity journey about 5 years ago, when I randomly came across a freecodecamp [youtube video](https://youtu.be/3Kq1MIfTWCE?si=LzMnP8Z5wA8tOtUg), by TheCyberMentor(huge thanks to him, he is the only reason I started in cybersec) . This was the first time I heard about the OSCP. I had never thought about that i would have this certification in 5 years. Due to Covid I completed this entire playlist within a week and started practicing on hackthebox.
@@ -24,7 +24,7 @@ I started my OSCP journey at the end of second year in university, taking it ser
 
 
 ---
-#### Pre Exam Preparation
+### Pre Exam Preparation
 These are the content I used. To study for OSCP. 
 
  Through reddit I found about hackthebox academy  which provided CPTS path (penetration tester path) at a student discount. Honestly this was one of the best resources out there for a beginner in Penetration Testing. Not only the method, but they have done a great job at explaining the reason behind what we do and why. The CPTS path took me about 8 months to complete with some very detailed notes I created, which I use even today. (I dont know how you are supposed to complete this courses withing 42 days as listed).
@@ -36,15 +36,15 @@ Throughout this entire time, I used [Ippsec](https://www.youtube.com/channel/UCa
 Overall it took me about 10 months on and off, to complete and feel ready to purchase the OSCP 3 month bundle.
 
 ---
-#### Official Preparation
+### Official Preparation
 Now that I had done the prerequisites, I had purchased the course in start of may 2025. I had a plan in mind which I roughly followed. I had to give my exam in july, within the 3 month period so I rushed it a bit, but there is no need to do so.
 I made detailed notes for this course too, this included the exercises, and the challenge labs, and almost everything.
 
 
-###### Study Material
+#### Study Material
  Completed the official study material with the capstone labs withing 5 weeks, which took my like 6-8 hours daily. I had no problems with the course itself, as the CPTS path beforehand had me everything clear. And this was kind of a revision for me. Honestly the course does not go in depth at some points, to understand why we are doing a certain technique. 
 
-###### Challenge Labs
+#### Challenge Labs
 Then came the actual studying which was the Challenge labs. I highly suggest for everyone atleast give 3-4 weeks time for the challenge labs, as it is the most important part in the course. I completed SECURA, MEDTECH, RELIA.
 Then I did the Post OSCP challenge labs LASER, POSEIDEN, ZEUS. Honestly I would suggest doing these post exam challenge labs also. Its just about gaining more experience and learning from your mistakes.
 
@@ -55,7 +55,7 @@ This is one of the most common questions. My method was to first give the machin
 After I had completed the machine. Then I looked at all the walkthroughs available to look at all the different methods and tools I could have tried. And made some notes on that. 
 
 ---
-#### The Exam!
+### The Exam!
 The exam itself was a mix of emotions, with a mix of frustration with my proctoring tool. It was challenging enough that getting enough points to pass was satisfying. From the 
 I usually start my days late to study from 12 pm, so I scheduled my exam at 12:30 PM.
 
@@ -76,11 +76,11 @@ The final machine was a do or die situation for me. Had to do a lot of manual en
 Now it was 3 am, and I had no sleep. So I decided it was time to get some sleep. I had no intention to get points on the final standalone. All I had to do in the morning was review my notes, and see if anything was missing. Took a lot of screenshots, and made sure I did not mess up the flag screenshots. 
 
 ---
-#### The Report
+### The Report
 I used [SysReptor](https://docs.sysreptor.com/) for my report, so I didn't  have to deal with formatting. Took me about 6 hours to make the report, used another hour to verify it if everything was correct. Just didnt wanted to mess the report up and fail because of a missing screenshot or flag. I got my exam result in about 30 hours after submitting the report, where I passed!
 
 ---
-#### Final Tips
+### Final Tips
 If I would summarize, this entire post. Here is what I would suggest
 - Please make notes for everything you learn, whether it is text material, exercise, or a machine you solved. Trust me it comes in handly, when you have done something before, and have it documented. I personally use Obsidian to take my notes. You can also use Notion.
 - Use PG Practice list from  [Lainkusanagi OSCP List](https://docs.google.com/spreadsheets/d/18weuz_Eeynr6sXFQ87Cd5F0slOj9Z6rt/edit?usp=sharing&ouid=114202580042651295472&rtpof=true&sd=true) to build a great methodology.
@@ -98,5 +98,4 @@ Tools that I would recommend to everyone.
 
 ---
 
-Thanks this was all I had to say about the exam and my journey. I will update this blog if I feel anything is missing, so ask me questions if you have any.
-
+Thanks this was all I had to say about the exam and my journey. I will update this blog if I feel anything is missing. So please add comments if you have query.
